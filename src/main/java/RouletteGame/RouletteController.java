@@ -17,7 +17,6 @@ public class RouletteController {
             defaultValue = "No content provided") String text)
     {
         // Test
-
         Wheel wheel = new Wheel();
         BinBuilder builder = new BinBuilder();
         builder.buildBins(wheel);
