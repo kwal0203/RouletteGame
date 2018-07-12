@@ -1,9 +1,6 @@
 package RouletteTests;
 
-import RouletteGame.BinBuilder;
-import RouletteGame.Game;
-import RouletteGame.Table;
-import RouletteGame.Wheel;
+import RouletteGame.*;
 import org.junit.Test;
 
 import java.util.Random;
