@@ -16,6 +16,7 @@ public class RouletteController {
     public Results simulate(@RequestParam(value = "text",
             defaultValue = "No content provided") String text)
     {
+        // Test
 
         Wheel wheel = new Wheel();
         BinBuilder builder = new BinBuilder();
