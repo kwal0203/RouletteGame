@@ -6,6 +6,7 @@ import org.junit.Test;
 import java.util.Random;
 
 public class GameTest {
+    // Test
     @Test
     public void gameTest() {
         Random rng = new Random();
