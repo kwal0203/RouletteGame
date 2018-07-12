@@ -12,7 +12,7 @@ import java.util.Random;
  */
 @RestController
 public class RouletteController {
-    @RequestMapping("/sim")
+    @RequestMapping("/simulate")
     public Results simulate(@RequestParam(value = "text",
             defaultValue = "No content provided") String text)
     {
